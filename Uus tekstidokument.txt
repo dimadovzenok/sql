@@ -1,5 +1,5 @@
 ﻿1. Составить 3 SQL запроса - с пояснением.
 ALTER TABLE company ADD country char(30);(Запрос для изменения таблицы)
 SELECT AVG(age) AS averageAge FROM passenger;(Запрос на средний возвраст пасажиров)
-SELECT ADD(*) AS companyCount FROM company; (Найти значения в таблице company)
+SELECT COUNT(*) AS companyCount FROM company; (Найти значения в таблице company)
 2. Сделать в них ошибку
